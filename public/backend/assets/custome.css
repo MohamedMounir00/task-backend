@@ -1,0 +1,14 @@
+.modal-footer {
+    padding: 1.25rem 0;
+}
+.modal .modal-content .modal-header .close:before {
+    content: '';
+}
+
+.roletitle {
+    font-size: 15px !important;
+}
+.rolename {
+    font-size: 15px !important;
+    font-weight: 400 !important;
+}

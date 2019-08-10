@@ -1,0 +1,24 @@
+.dataTables_wrapper .dataTables_length , .dataTables_info {
+    float: right !important;
+}
+.dataTables_filter , .dataTables_paginate  {
+    float: left !important;
+}
+.modal-footer {
+    padding: 1.25rem 0;
+}
+.modal .modal-content .modal-header .close:before {
+    content: '';
+}
+.roletitle {
+    font-size: 15px !important;
+}
+.rolename {
+    font-size: 15px !important;
+    font-weight: 400 !important;
+}
+.kt-content.kt-grid__item kt-grid__item--fluid {
+    height: 100vh;
+    flex: none !important;
+    flex-direction: row
+}
