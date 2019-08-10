@@ -30,4 +30,13 @@ Route::middleware(['auth:api'])->group(function (){
 
     //// save project
     Route::post('/save-project','Api\ProjectController@save_project');
+    //// get all  project
+    Route::get('/get-projects','Api\ProjectController@get_project');
+    ////delete project
+
+    Route::post('/destroy','Api\ProjectController@destroy');
+    //// update  project
+
+    Route::post('/update-project','Api\ProjectController@update_project');
+
 });
